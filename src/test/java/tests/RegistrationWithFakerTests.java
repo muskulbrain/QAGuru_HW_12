@@ -8,11 +8,12 @@ import static components.TestData.*;
 
 import java.io.File;
 
-@Tag("qa")
+
 public class RegistrationWithFakerTests extends TestBase {
     private final File file = new File("src/test/resources/picture/1.png");
     RegistrationPage registrationPage = new RegistrationPage();
 
+    @Tag("qa")
     @Test
     void registrationTest() {
 
